@@ -33,6 +33,10 @@ class Board
     @cells[index-1]
   end
   
+  def update(move, player)
+    position   
+  end
+  
   def turn_count
     @board.count{|token| token == "X" || token == "O"}
   end
