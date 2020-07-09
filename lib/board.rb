@@ -29,8 +29,8 @@ class Board
     puts " #{@cells[6]} | #{@cells[7]} | #{@cells[8]} "
   end
   
-  def position(index,token ="X")
-    @board[index] = token
+  def position(index)
+    @cells[index-1]
   end
   
   def turn_count
